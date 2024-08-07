@@ -1,0 +1,171 @@
+
+#heading{
+    padding-top: 20px;
+    font-family: Franklin Gothic light;
+    text-align: center;
+    font-size: 3em;
+}
+#money{
+    font-size: 4em;
+    font-family: Franklin Gothic medium;
+    justify-content: center;
+}
+#moneycontainer{
+    display: flex;
+    text-align: center;
+    padding-bottom: 70px;
+    padding-top: 30px;
+    justify-content: center;
+}
+.info{
+    font-size: 1.5em;
+    font-family: Franklin Gothic light;
+}
+#dpcinfo{
+    padding-right: 40px;
+    padding-top: 23px;
+}
+#dpsinfo{
+    padding-left: 40px;
+    padding-top: 23px;
+}
+#btncontainer{
+    text-align: center;
+}
+#button{
+    padding: 50px 50px;
+    font-family: Franklin Gothic Medium;
+    font-size: 3em;
+    border: 0cap;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 26, 255);
+    cursor: pointer;
+    border-radius: 500px;
+    transition: background-color 0.25s;
+}
+#button:hover{
+    background-color: rgb(2, 0, 131);
+    transition: padding 0.25s;
+}
+#button:active{
+    padding: 40px 40px;
+}
+#dpscontainer{
+    text-align: center;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+#dpccontainer{
+    text-align: center;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+#dpc{
+    padding: 30px 30px;
+    border: 0cap;
+    background-color: rgb(238, 255, 81);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: Franklin Gothic Medium;
+    font-size: 2em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#dps{
+    padding: 30px 30px;
+    border: 0cap;
+    background-color: rgb(238, 255, 81);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: Franklin Gothic Medium;
+    font-size: 2em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#dps:hover{
+    background-color: rgb(188, 190, 35);
+}
+#dpc:hover{
+    background-color: rgb(188, 190, 35);
+}
+#dpc2{
+    padding: 30px 30px;
+    border: 0cap;
+    background-color: rgb(238, 255, 81);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: Franklin Gothic Medium;
+    font-size: 2em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#dps2{
+    padding: 30px 30px;
+    border: 0cap;
+    background-color: rgb(238, 255, 81);
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    font-family: Franklin Gothic Medium;
+    font-size: 2em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#dps2:hover{
+    background-color: rgb(188, 190, 35);
+}
+#dpc2:hover{
+    background-color: rgb(188, 190, 35);
+}
+.upgradecost{
+    text-align: center;
+    font-family: Franklin Gothic light;
+    color: rgb(255, 69, 69);
+}
+.canafford{
+    color: rgb(75, 255, 69);
+}
+/* #dpccost{
+    padding: 30px;
+} */
+#upgrades{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#upgrades2{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+#x10{
+    padding: 30px 30px;
+    padding-right: 100px;
+    padding-left: 100px;
+    border: 0cap;
+    background-color: rgb(255, 81, 81);
+    color: rgb(111, 1, 1);
+    border-radius: 50px;
+    font-family: Franklin Gothic Medium;
+    font-size: 2em;
+    transition: background-color 0.25s;
+    cursor: pointer;
+}
+#x10:hover{
+    background-color: rgb(202, 23, 23);
+}
+#x10cost{
+    text-align: center;
+    font-family: Franklin Gothic light;
+    color: rgb(146, 20, 20);
+}
+#x10container{
+    display: flex ;
+    flex-direction: row;
+    justify-content: center;
+}
+.tenk{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255)
+}
